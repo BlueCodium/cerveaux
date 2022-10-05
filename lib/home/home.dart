@@ -6,6 +6,7 @@ import '../var.dart';
 
 import 'home_body.dart';
 import 'bottom_app_bar.dart';
+import 'package:cerveaux/notifications/notifications.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -22,12 +23,18 @@ class Home extends StatelessWidget {
           style: TextStyle(color: Colors.yellow),
         ),
         actions: [
-          IconButton(onPressed: () {}, icon: Icon(Icons.notifications)),
+          IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.notifications),
+          ),
           IconButton(
             onPressed: () {},
             icon: Icon(Icons.settings),
           ),
-          IconButton(onPressed: () {}, icon: const Icon(Icons.account_circle)),
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.account_circle),
+          ),
           Padding(padding: EdgeInsets.all(5)),
         ],
       ),

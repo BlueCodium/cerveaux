@@ -16,6 +16,7 @@ class Settings extends StatelessWidget {
             color: Colors.yellow,
           ),
         ),
+        leading: const Icon(Icons.arrow_back_ios_rounded),
       ),
     );
   }
