@@ -8,7 +8,12 @@ class Notifications extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Notifications'),
+        backgroundColor: background,
+        elevation: 0,
+        title: const Text(
+          'Notifications',
+          style: TextStyle(color: Colors.yellow),
+        ),
       ),
       body: Container(),
     );

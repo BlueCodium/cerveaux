@@ -24,8 +24,13 @@ class Home extends StatelessWidget {
         ),
         actions: [
           IconButton(
-            onPressed: () {},
             icon: Icon(Icons.notifications),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const Notifications()),
+              );
+            },
           ),
           IconButton(
             onPressed: () {},
