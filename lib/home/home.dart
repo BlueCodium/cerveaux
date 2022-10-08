@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:cerveaux/account/account.dart';
+import 'package:cerveaux/settings/settings.dart';
 import 'package:flutter/material.dart';
 import '../var.dart';
 
@@ -33,11 +34,21 @@ class Home extends StatelessWidget {
             },
           ),
           IconButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const Settings()),
+              );
+            },
             icon: Icon(Icons.settings),
           ),
           IconButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const Account()),
+              );
+            },
             icon: const Icon(Icons.account_circle),
           ),
           Padding(padding: EdgeInsets.all(5)),
