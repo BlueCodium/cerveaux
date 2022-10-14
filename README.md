@@ -1,6 +1,6 @@
 # cerveaux
 
-Clone de l'application "Les Cerveaux" réalisé en Flutter
+Clone de l'application "Les cerveaux" réalisé en Flutter
 
 ---
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Banners extends StatelessWidget {
-  //Banniere du haut des Cerveaux
+  //Banniere du haut des cerveaux
   const Banners({super.key});
 
   @override

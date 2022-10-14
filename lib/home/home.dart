@@ -20,7 +20,7 @@ class Home extends StatelessWidget {
         elevation: 0,
         backgroundColor: background,
         title: const Text(
-          'Les Cerveaux',
+          'Les cerveaux',
           style: TextStyle(color: Colors.yellow),
         ),
         actions: [

@@ -1,4 +1,4 @@
-package com.example.cerveaux
+package com.BlueCodium.cerveaux
 
 import io.flutter.embedding.android.FlutterActivity
 

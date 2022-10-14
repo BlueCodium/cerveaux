@@ -6,6 +6,14 @@ class AccountBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Row(
+      children: const [
+        Text(
+          'hello',
+          style: TextStyle(color: Colors.white),
+          textAlign: TextAlign.end,
+        )
+      ],
+    );
   }
 }

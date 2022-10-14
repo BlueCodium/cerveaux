@@ -65,6 +65,7 @@ flutter:
     - assets/banniere_bible.jpg
     - assets/banniere_milliard.jpg
     - assets/banniere_miracle.jpg
+    - assets/cerveaux_logo.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
