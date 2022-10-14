@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:cerveaux/var.dart';
+import 'settings_body.dart';
 
 class Settings extends StatelessWidget {
   const Settings({super.key});
@@ -7,6 +8,7 @@ class Settings extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: background,
       appBar: AppBar(
         backgroundColor: background,
         elevation: 0,
@@ -15,7 +17,7 @@ class Settings extends StatelessWidget {
           style: TextStyle(color: Colors.yellow),
         ),
       ),
-      body: Container(),
+      body: SettingsBody(),
     );
   }
 }
